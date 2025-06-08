@@ -3,8 +3,7 @@
 ## Step 1 - Download some NYC taxi data
 
 ```bash
-cd ./nyc-taxi-demand-forecast
-uv run .src/helpers/download_trip_data.py
+uv run ./src/helpers/download_trip_data.py
 ```
 
 ## Step 2 - Auth with AWS
@@ -22,7 +21,7 @@ You will need a role that has access to
 
 I just gave mine `AdministratorAccess` like a fool.
 
-## Step 3 - Run [the `iceberg-glue.ipynb` notebook](./nyc-taxi-demand-forecast/notebooks/iceberg/iceberg-glue.ipynb)
+## Step 3 - Run [the `iceberg-glue.ipynb` notebook](./notebooks/iceberg/iceberg-glue.ipynb)
 
 ```bash
 cd ./nyc-taxi-demand-forecast/notebooks
