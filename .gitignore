@@ -1,0 +1,9 @@
+*env
+*cache*
+*pyc
+*parquet
+nyc-taxi-demand-forecast/src/data
+notebooks/iceberg/combined.parquet
+data
+*.DS_Store
+*.ipynb_checkpoints
